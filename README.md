@@ -1,16 +1,21 @@
 Instruções do Jogo:
+
 O jogo consiste em uma batalha 3x3 (3 contra 3), que ganha a última equipe viva no mapa, para efeito de teste existiram apenas 4 rodadas ganhando a equipe que acabar com mais vida, sendo que para a formação das equipes será feito um sorteio e escolhas alternadas, sem a possibilidade de Duplicação de personagens.
+
 Existem 3 tipos de mapas,sendo eles: 
+
 Mapa 1: Tamanho:7x7 (7 linhas/ 7 colunas) existindo Obstáculos, representados por “~”.
 Mapa 2: Tamanho:10x10 (10 linhas/ 10 colunas) existindo Obstáculos, representados por “~”.
 Mapa 3: Tamanho:11x11 (11 linhas/ 11 colunas) existindo Obstáculos, representados por “~”.
 
 Observações importantes:
+
 Gerar um arquivo chamado "dados.txt" na pasta contendo o jogo, exemplo: ESTECOMPUTADOR/DOCUMENTOS/NETBEANSPROJECTS/CONFIA
 Nunca escrever letras quando uma opção numérica é sugerida, exemplo: Posicionar personagem
 As letras A e B dispostas no mapa são respectivamente os números 10 e 11
 
 Regras:
+
 Ao Iniciar o jogo os personagens devem ser colocados nas extremidades do mapa (Lado 1 na última linha do mapa e o Lado 2 na linha 1);
 O jogo termina após 4 rodadas para facilitar o teste do jogo, a contagem começa da rodada 0;
 Ganha a equipe que tiver o maior número de vida somando todos os personagens vivos;
@@ -18,8 +23,6 @@ Não é possível duplicação de personagens, por tanto todos os 6 personagens 
 O ganhador ganhará um item ao final do jogo, o item é sorteado aleatoriamente dentre os 4 itens Existentes;
 Itens podem ser utilizado mais de uma vez por personagem;
 Cada Personagem pode andar 2 casa por rodada, movimentos somente em linhas e colunas;
-
-
 
 Informações Personagens:
 Artemis:
