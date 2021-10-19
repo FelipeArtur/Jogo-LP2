@@ -1,0 +1,22 @@
+lipao
+Armadura
+felipe
+Cota de Malha
+atatatata
+Luva
+choppa
+Armadura|Cota de Malha|Anel|Cota de Malha|Luva
+law
+Luva|Luva
+Eu
+Armadura
+a
+Cota de Malha|Luva|Anel|Anel|Cota de Malha|Cota de Malha
+b
+Anel|Anel|Cota de Malha
+c
+Armadura
+COES
+Luva
+Felipe
+Anel

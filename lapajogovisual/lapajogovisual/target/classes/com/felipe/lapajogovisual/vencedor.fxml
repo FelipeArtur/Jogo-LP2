@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="501.0" prefWidth="1101.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.felipe.lapajogovisual.VencedorController">
+   <children>
+      <ImageView fx:id="fundo" fitHeight="501.0" fitWidth="1101.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="racoba" fitHeight="428.0" fitWidth="561.0" layoutX="40.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="Menuzin" layoutX="859.0" layoutY="398.0" mnemonicParsing="false" onAction="#menu" text="Voltar para o menu" />
+      <Text fx:id="vencedor" layoutX="797.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="242.13671875">
+         <font>
+            <Font name="Californian FB" size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

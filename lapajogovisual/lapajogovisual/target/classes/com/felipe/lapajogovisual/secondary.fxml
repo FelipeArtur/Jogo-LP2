@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+
+
+<HBox prefHeight="499.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.felipe.lapajogovisual.SecondaryController">
+   <children>
+      <Pane prefHeight="499.0" prefWidth="825.0">
+         <children>
+            <ImageView fx:id="willmar" fitHeight="499.0" fitWidth="825.0" pickOnBounds="true" preserveRatio="true" />
+            <Button fx:id="InstruButton" layoutX="369.0" layoutY="277.0" mnemonicParsing="false" onAction="#istru" prefHeight="25.0" prefWidth="109.0" text="Instrução" />
+            <Button fx:id="secondaryButton" layoutX="369.0" layoutY="237.0" onAction="#switchToPrimary" prefHeight="25.0" prefWidth="109.0" text="Jogar" />
+         </children>
+      </Pane>
+      <Pane prefHeight="499.0" prefWidth="278.0">
+         <children>
+            <ImageView fx:id="suspeito" fitHeight="499.0" fitWidth="277.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </Pane>
+   </children>
+</HBox>
